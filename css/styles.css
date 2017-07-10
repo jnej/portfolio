@@ -1,3 +1,118 @@
-h1 {
-  color: red;
+#header {
+  border-right: 1px solid #c4c4c4;
+}
+
+.nav {
+  background-color: #ffffff;
+  width: 0px;
+}
+
+.logo {
+  padding-top: 25px;
+  padding-bottom: 70px;
+}
+
+.nav  li a{
+  color:#46474b;
+  width: 75px;
+  text-align: center;
+}
+
+.nav > li > a:hover {
+  background-color: transparent;
+}
+
+.nav li {
+  transform: rotate(-90deg);
+  padding-top: 50px;
+  margin-left: 10px;
+}
+
+.contact {
+  color: #ffffff;
+  padding-top: 95px;
+  padding-bottom: 20px;
+}
+
+#contact-btn {
+background-color: transparent;
+border: #ffffff;
+}
+
+.contact-info {
+  display: none;
+  position: fixed;
+  left: 1;
+  top: 0;
+  z-index: 1;
+  padding: 25px;
+  overflow: visible;
+  background-color: #46474b;
+  color: #ffffff;
+}
+/*portfolio page */
+#main {
+  background-color: #f5f5f5;
+  height: 525px;
+  padding-top: 35px;
+}
+
+#makeMeScrollable div.scrollableArea
+{
+ white-space: nowrap;
+ overflow: hidden;
+ padding-left: 95px;
+}
+
+#main img {
+ padding: 5px;
+ height: 450px;
+}
+/*about page*/
+#body-about {
+  background-color: #bbdbd6;
+}
+
+#header1 {
+  border-right: 1px solid #46474b;
+}
+
+#main1 {
+    height: 525px;
+}
+
+#footer1 {
+  border-top: 1px solid #46474b;
+}
+
+/*contact page*/
+.btn {
+  color: #fff;
+  background-color: #46474b;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background: #c7c7c7;
+    color: #46474b;
+    border: #c7c7c7;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 25px;
+}
+
+.contact-form h2, p {
+  text-align: center;
+}
+
+/*footer*/
+footer{
+  color: #46474b;
+  text-align: center;
+  border-top: 1px solid #c4c4c4;
+  padding: 25px;
 }
